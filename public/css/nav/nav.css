@@ -1,0 +1,41 @@
+nav {
+    width: 130px;
+    border-right: 1px solid #E6E6F5;
+    height: 100vh
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px 30px;
+    text-align: center;
+    border-bottom: 1px solid #E6E6F5;
+    min-width: 70px;
+    cursor: pointer
+}
+
+nav ul li:nth-of-type(2){
+    margin-top: auto;
+    border-top: 1px solid #E6E6F5;
+}
+
+nav ul li p {
+    margin-bottom: 0;
+    font-size: 0.8rem
+}
+
+nav ul li:nth-of-type(1) img {
+    height: 48px
+}
+
+nav ul li img {
+    height: 32px
+}

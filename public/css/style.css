@@ -1,0 +1,9 @@
+@import 'nav/nav.css';
+@import 'fiches/fiche.css';
+@import 'fiches/ficheCard.css';
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+}

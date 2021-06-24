@@ -1,0 +1,5 @@
+function searchInstance() {
+    return {
+      fiches: [],
+    }
+  }
